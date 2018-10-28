@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/list_item_paddijng"
+    android:paddingRight="@dimen/list_item_paddijng"
+    android:paddingTop="@dimen/list_item_paddijng"
+    android:paddingBottom="@dimen/list_item_paddijng"
+    android:background="@drawable/border_blue">
+
+    <TextView
+        android:id="@+id/txt_newsreport_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        tools:text="Article Title" />
+
+
+    <TextView
+        android:id="@+id/txt_newsreport_section_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        tools:text="Article Section Name" />
+
+
+    <TextView
+        android:id="@+id/txt_newsreport_webURL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        tools:text="Article WEb URL" />
+
+
+    <TextView
+        android:id="@+id/txt_newsreport_author_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        tools:text="Article Author Name" />
+
+    <TextView
+        android:id="@+id/txt_newsreport_date_published"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        tools:text="Article Date published" />
+
+</LinearLayout>

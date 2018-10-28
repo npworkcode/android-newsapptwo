@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of News Articles in the ListView -->
+    <dimen name="list_item_height">0dp</dimen>
+    <dimen name="progressbar_min_height">100dp</dimen>
+    <dimen name="list_item_paddijng">16dp</dimen>
+    <dimen name="progressbar_min_width">75dp</dimen>
+    <dimen name="box_border_size">3dp</dimen>
+    <dimen name="box_curvature">12dp</dimen>
+    <dimen name="textview_height">16sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+</resources>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">NewsAppTwo</string>
+    <string name="no_articles">No Articles Found</string>
+    <string name="no_network">No Internet connection</string>
+    <string name="from_date">from-date</string>
+    <string name="to_date">to-date</string>
+    <string name="order_by">order-by</string>
+    <string name="order_by_newest">newest</string>
+    <string name="page_size">page-size</string>
+    <string name="query">q</string>
+    <string name="query_term">tesla</string>
+    <string name="api_key">api-key</string>
+    <string name="api_key_value">test</string>
+    <string name="show_tag">show-tags</string>
+    <string name="contributor">contributor</string>
+    <string name="pages">pages</string>
+    <string name="guardian_api_url">https://content.guardianapis.com/search?</string>
+    <string name="guardian_api_json_results">results</string>
+    <string name="guardian_api_json_response">response</string>
+    <string name="guardian_api_json_section_name">sectionName</string>
+    <string name="guardian_api_json_web_title">webTitle</string>
+    <string name="guardian_api_json_web_url">webUrl</string>
+    <string name="guardian_api_json_contributor_firstname">firstName</string>
+    <string name="guardian_api_json_contributor_lastname">lastName</string>
+    <string name="guardian_api_json_tags">tags</string>
+    <string name="guardian_api_json_date_published">webPublicationDate</string>
+    <string name="newsreport_error_createurl">"NEWSREPORT ERROR: Error creating URL</string>
+    <string name="newsreport_error_httprequest">"NEWSREPORT ERROR: Http Response Error, code is: %1$d</string>
+    <string name="newsreport_error_securityexception">"NEWSREPORT ERROR: Security Exception thrown in: %1$s</string>
+    <string name="newsreport_error_ioexception">"NEWSREPORT ERROR: IO Exception thrown in: %1$s</string>
+    <string name="newsreport_error_jsonexception">"NEWSREPORT ERROR: JSON exception passing stream in: %1$s</string>
+    <!-- Query Settings Menu Values -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Report Query Settings</string>
+    <!-- Strings for Search term Preference -->
+    <string name="query_settings_search_term_label">Search Term</string>
+    <string name="query_settings_search_term_key">search_term</string>
+    <string name="query_settings_search_term_default" translatable="false">@string/query_term</string>
+    <!-- Strings for Order By Preference -->
+    <string name="query_settings_order_by_label">Order By</string>
+    <string name="query_settings_order_by_key">order_by</string>
+    <string name="query_settings_order_by_default" translatable="false">@string/query_settings_order_by_newest_value</string>
+    <!-- Label for Order by newest option -->
+    <string name="query_settings_order_by_newest_label">Newest</string>
+    <string name="query_settings_order_by_newest_value">newest</string>
+    <!-- Label for Order by oldest option -->
+    <string name="query_settings_order_by_oldest_label">Oldest</string>
+    <string name="query_settings_order_by_oldest_value">oldest</string>
+    <!-- Label for Order by relevance option -->
+    <string name="query_settings_order_by_relevance_label">Relevance</string>
+    <string name="query_settings_order_by_relevance_value">relevance</string>
+    <!-- Strings for Page Size Preference -->
+    <string name="query_settings_page_size_label">Page Size</string>
+    <string name="query_settings_page_size_key">page_size</string>
+    <string name="query_settings_page_size_default" translatable="false">@string/query_settings_page_size_20_value</string>
+    <!-- Label for Page-Size = 10 option -->
+    <string name="query_settings_page_size_10_label">10</string>
+    <string name="query_settings_page_size_10_value">10</string>
+    <!-- Label for Page-Size = 20 option -->
+    <string name="query_settings_page_size_20_label">20</string>
+    <string name="query_settings_page_size_20_value">20</string>
+    <!-- Label for Page-Size = 30 option -->
+    <string name="query_settings_page_size_30_label">30</string>
+    <string name="query_settings_page_size_30_value">30</string>
+
+</resources>
